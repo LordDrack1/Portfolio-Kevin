@@ -17,14 +17,14 @@ function Footer() {
                 <div className='footer-link-wrapper'>
                   <div class='footer-link-items'>
                     <h2>Acerca de mí</h2>
-                    <Link to='/skills'>Habilidades</Link>
-                    <Link to='/feedbacks'>Feedbacks</Link>
-                    <Link to='/carrer'>Carrera</Link>
+                    <a data-easing="linear" href='#skills'>Habilidades</a>
+                    <a data-easing="linear" href='#'>Feedbacks</a>
+                    <a data-easing="linear" href='#'>Carrera</a>
                   </div>
                   <div class='footer-link-items'>
                     <h2>Contactame</h2>
-                    <Link to='/contacts'>Contacto</Link>
-                    <Link to='/donations'>Apoyo</Link>
+                    <a data-easing="linear" href='#contacts'>Contacto</a>
+                    <Link to='/'>Apoyo</Link>
                   </div>
                 </div>
                 <div className='footer-link-wrapper'>

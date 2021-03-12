@@ -1,11 +1,11 @@
-import './Button2.css';
+import './Button3.css';
 import {Link} from 'react-router-dom';
 
 const STYLES = ['btn---primary','btn--outline'];
 
 const SIZES = ['btn--medium','btn--large'];
 
-export const Button2 = ({
+export const Button3 = ({
     children ,
     type ,
     onClick,
@@ -21,7 +21,7 @@ export const Button2 = ({
     : SIZES[0];
 
     return (
-        <a data-easing="linear" href='#skills' className='btn-mobile'>
+        <a data-easing="linear" href='#contacts' className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}

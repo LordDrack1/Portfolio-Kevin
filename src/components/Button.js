@@ -21,7 +21,7 @@ export const Button = ({
     : SIZES[0];
 
     return (
-        <a data-easing="linear" href='#contacts' className='btn-mobile'>
+        <a data-easing="linear" href='#services' className='btn-mobile'>
             <button
             className={`btn ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}
