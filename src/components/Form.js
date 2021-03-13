@@ -16,7 +16,7 @@ const Form = () => {
       e.preventDefault();
       setLoader(true);
 
-      var letters = /^[A-Za-z]+$/;
+      var letters = /(([^\s.,:;]+)\s?)+/gm;
       var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
       if(name == ""||email ==""||phone==""|| message==""){
