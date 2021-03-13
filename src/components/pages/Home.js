@@ -12,7 +12,7 @@ function Home(){
     <HeroSection/>
     <Cards/>
     <Languages/>    
-      <Form/>
+    <Form/>
     <Footer/>
     </>
 )}
